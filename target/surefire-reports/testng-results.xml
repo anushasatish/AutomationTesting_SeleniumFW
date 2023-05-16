@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-16T14:26:31 EDT" name="Maven Test Suite" finished-at="2023-05-16T14:26:31 EDT" duration-ms="21">
+    <groups>
+    </groups>
+    <test started-at="2023-05-16T14:26:31 EDT" name="SampleMavenTest" finished-at="2023-05-16T14:26:31 EDT" duration-ms="21">
+      <class name="TestngTests.SampleMavenTest">
+        <test-method signature="testMaven2()[pri:0, instance:TestngTests.SampleMavenTest@6c3f5566]" started-at="2023-05-16T14:26:31 EDT" name="testMaven2" finished-at="2023-05-16T14:26:31 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaven2 -->
+        <test-method signature="testMaven()[pri:0, instance:TestngTests.SampleMavenTest@6c3f5566]" started-at="2023-05-16T14:26:31 EDT" name="testMaven" finished-at="2023-05-16T14:26:31 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaven -->
+      </class> <!-- TestngTests.SampleMavenTest -->
+    </test> <!-- SampleMavenTest -->
+  </suite> <!-- Maven Test Suite -->
+</testng-results>
