@@ -5,6 +5,7 @@
     <test name="End to End">
         <classes>
             <class name="GreenKartTests.EndToEndTests"></class>
+            <class name="GreenKartTests.HomePageTest"></class>
         </classes>
       </test>
 </suite>

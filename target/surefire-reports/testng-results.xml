@@ -1,21 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-16T14:26:31 EDT" name="Maven Test Suite" finished-at="2023-05-16T14:26:31 EDT" duration-ms="21">
+  <suite started-at="2023-05-16T19:34:44 EDT" name="GreenKart Suite" finished-at="2023-05-16T19:35:07 EDT" duration-ms="23253">
     <groups>
     </groups>
-    <test started-at="2023-05-16T14:26:31 EDT" name="SampleMavenTest" finished-at="2023-05-16T14:26:31 EDT" duration-ms="21">
-      <class name="TestngTests.SampleMavenTest">
-        <test-method signature="testMaven2()[pri:0, instance:TestngTests.SampleMavenTest@6c3f5566]" started-at="2023-05-16T14:26:31 EDT" name="testMaven2" finished-at="2023-05-16T14:26:31 EDT" duration-ms="2" status="PASS">
+    <test started-at="2023-05-16T19:34:44 EDT" name="End to End" finished-at="2023-05-16T19:35:07 EDT" duration-ms="23253">
+      <class name="GreenKartTests.EndToEndTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:GreenKartTests.EndToEndTests@2bbf180e]" started-at="2023-05-16T19:34:44 EDT" name="setup" finished-at="2023-05-16T19:34:45 EDT" duration-ms="1264" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMaven2 -->
-        <test-method signature="testMaven()[pri:0, instance:TestngTests.SampleMavenTest@6c3f5566]" started-at="2023-05-16T14:26:31 EDT" name="testMaven" finished-at="2023-05-16T14:26:31 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="GreenKartEndToEndTest()[pri:0, instance:GreenKartTests.EndToEndTests@2bbf180e]" started-at="2023-05-16T19:34:45 EDT" name="GreenKartEndToEndTest" finished-at="2023-05-16T19:34:59 EDT" duration-ms="14153" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMaven -->
-      </class> <!-- TestngTests.SampleMavenTest -->
-    </test> <!-- SampleMavenTest -->
-  </suite> <!-- Maven Test Suite -->
+        </test-method> <!-- GreenKartEndToEndTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:GreenKartTests.EndToEndTests@2bbf180e]" started-at="2023-05-16T19:34:59 EDT" name="teardown" finished-at="2023-05-16T19:34:59 EDT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- GreenKartTests.EndToEndTests -->
+      <class name="GreenKartTests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:GreenKartTests.HomePageTest@4ddced80]" started-at="2023-05-16T19:34:59 EDT" name="setup" finished-at="2023-05-16T19:34:59 EDT" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DefaultItemsPriceTest()[pri:0, instance:GreenKartTests.HomePageTest@4ddced80]" started-at="2023-05-16T19:34:59 EDT" name="DefaultItemsPriceTest" finished-at="2023-05-16T19:35:03 EDT" duration-ms="3047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultItemsPriceTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:GreenKartTests.HomePageTest@4ddced80]" started-at="2023-05-16T19:35:03 EDT" name="teardown" finished-at="2023-05-16T19:35:03 EDT" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:GreenKartTests.HomePageTest@4ddced80]" started-at="2023-05-16T19:35:03 EDT" name="setup" finished-at="2023-05-16T19:35:03 EDT" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PageTitleTest()[pri:0, instance:GreenKartTests.HomePageTest@4ddced80]" started-at="2023-05-16T19:35:03 EDT" name="PageTitleTest" finished-at="2023-05-16T19:35:06 EDT" duration-ms="3020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:GreenKartTests.HomePageTest@4ddced80]" started-at="2023-05-16T19:35:06 EDT" name="teardown" finished-at="2023-05-16T19:35:07 EDT" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- GreenKartTests.HomePageTest -->
+    </test> <!-- End to End -->
+  </suite> <!-- GreenKart Suite -->
 </testng-results>

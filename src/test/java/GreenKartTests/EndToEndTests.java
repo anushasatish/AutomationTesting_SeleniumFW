@@ -54,6 +54,6 @@ public class EndToEndTests extends BaseTest
         Assert.assertTrue (homepage.thankYouMsgPresent(),"Msg not present");
         homepage.waitUntilBrocolliElementisVisible();
         Assert.assertEquals(homepage.getTitle(),"GreenKart - veg and fruits kart", "Did not navigate to Home Page");
-
+        System.out.println(homepage.getTitle());
     }
 }
